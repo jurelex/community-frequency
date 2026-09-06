@@ -2,305 +2,189 @@
 
 ## Resilient communications for places where conventional connectivity does not reach
 
-Community Frequency is an exploratory field-research project focused on community-owned, low-power communication systems and their role within resilient communications infrastructure.
+Community Frequency is an independent exploration, research, and feasibility project focused on one simple question:
 
-The project is investigating how technologies such as low-power mesh networks can complement existing communications systems — including HF radio, satellite, cellular, and Internet connectivity — particularly in remote and underserved environments.
+> **How can communities maintain basic communications when cellular or Internet connectivity does not reach them or is not enough?**
 
-This repository is the **public project record**.
+We explore practical, community-oriented communications approaches that can work across different environments and infrastructure conditions.
 
-It documents research, experiments, field observations, technical decisions, failures, lessons learned, and the development of the project over time.
+This is **not a project built around one technology**. Low-power mesh is one part of a broader communications architecture that may also include HF radio, satellite, cellular networks, and the Internet.
 
-> **This is not a finished solution.**
->
-> The project is deliberately evidence-driven: **listen, measure, learn, and build.**
+### What we are doing
 
----
+**Listen. Measure. Learn. Build.**
 
-## Current Status
+We are beginning with research and field testing rather than assuming that a particular technology is the answer. We document what works, what does not, what remains uncertain, and what should be tested next.
+
+Our current phase is:
 
 **Phase 0 — Discovery & Feasibility**
 
-The project is currently focused on understanding the technical, operational, environmental, community, and regulatory requirements for resilient communications in remote environments.
+The next major step is a planned **Peru 2026 feasibility mission**, where the goal is to listen, observe, and learn directly about local communications needs and conditions before proposing any deployment.
 
-A major near-term activity is the planned **Peru 2026 feasibility mission**, which will be used to gather information, evaluate existing communications practices, conduct controlled technical testing where appropriate, and identify requirements for future field work.
+### Why Peru?
 
-No deployment conclusions have been made yet.
+Remote and underserved communities in Peru can face geographic, infrastructure, and connectivity challenges that make conventional communications difficult or unavailable.
 
----
+The project is particularly interested in understanding how different communications layers might complement one another rather than compete:
 
-## What We Are Investigating
+**Community → local/low-power communications → elevated or regional infrastructure → HF / satellite / cellular / Internet**
 
-The central question is:
+The actual architecture will depend on what the field assessment shows.
 
-> **How can community-owned, low-power communications extend the reach and usefulness of existing communications infrastructure in places where conventional connectivity does not reach?**
+### Technology tracks
 
-Areas of investigation include:
+Community Frequency is technology-neutral.
 
-- Low-power mesh networking
-- Store-and-forward communications
-- Remote and intermittent connectivity
-- Solar-powered communications infrastructure
-- Elevated repeater infrastructure
-- HF radio and other backhaul systems
-- Satellite and Internet connectivity
-- Environmental and terrain constraints
-- Community ownership and local technical capacity
-- Emergency and health communications
-- Field logistics and coordination
-- Regulatory and spectrum considerations
-- Practical deployment and maintenance requirements
+We are currently evaluating low-power mesh technologies through parallel tracks, including **Meshtastic** and **MeshCore**, while also considering how they could coexist with established communications such as:
 
-The goal is not to replace existing infrastructure.
+- HF radio
+- Satellite connectivity
+- Cellular networks
+- Internet connectivity
+- Sensors and telemetry
 
-The goal is to understand whether low-power local networks can **extend the value of the connectivity that already exists**.
+The purpose of testing is not to prove that one technology is superior. It is to understand where each approach is useful, where it is limited, and how different systems might work together.
 
----
+### What we have learned so far
 
-## Technology Tracks
+Field experiments in Arizona have already examined direct communications, relayed messages, multi-hop behavior, repeaters, route learning, and mobile testing across both technology tracks.
 
-Community Frequency is intentionally technology-neutral.
+The results are being documented as an evolving public record. Measurements are treated as observations rather than automatically as conclusions, and known limitations or uncertainties are preserved.
 
-Two low-power mesh technologies are currently being evaluated as parallel research tracks:
+### Explore the project
 
-- **Meshtastic**
-- **MeshCore**
+For the deeper description of the project, its methodology, research, field work, and current direction, see:
 
-They are being studied independently rather than assuming that either technology will become the project's permanent platform.
+**[Project Overview / Resumen del Proyecto](00%20-%20Project/Project%20Overview.md)**
 
-The project may ultimately use one technology, multiple technologies, or a different architecture entirely.
+You can also explore:
 
-Technology selection will follow evidence from testing and field requirements.
+- **Research** — technology and communications research
+- **Field Experiments** — documented tests and observations
+- **Peru 2026** — feasibility mission planning and assessment
+- **Findings** — conclusions and lessons as evidence develops
+- **Funding Transparency** — project funding and equipment information
+- **Project History** — how the project has developed over time
 
-See:
+### Help us explore what is possible
 
-- [`01 - Research/Technology Tracks.md`](01%20-%20Research/Technology%20Tracks.md)
+Community Frequency is looking for people with experience in:
 
----
+- rural and remote communications
+- HF radio and antennas
+- low-power radio and mesh networking
+- satellite communications
+- solar and off-grid power
+- emergency communications
+- field deployments
+- community technology
+- research and engineering
+- Indigenous and rural community development
 
-## Research Approach
+Equipment, technical knowledge, field experience, introductions, and financial support can all help move the project forward.
 
-The project follows a practical field-research cycle:
+### An important principle
 
-**Observe → Hypothesize → Test → Measure → Document → Reassess**
+We are **not going to a community with a predetermined solution**.
 
-Testing is intended to distinguish between:
+We are going to listen first.
 
-- What is known
-- What has been observed
-- What has been measured
-- What is suspected
-- What has not yet been tested
+**Listen. Measure. Learn. Build.**
 
-Failures and unexpected results are considered valuable research data.
-
-A result that disproves an assumption is still a useful result.
-
-See:
-
-- [`00 - Project/Methodology.md`](00%20-%20Project/Methodology.md)
 
 ---
 
-## Peru 2026
+# Español
 
-The planned Peru 2026 mission is currently a **discovery and feasibility effort**, not a deployment project.
+## Comunicaciones resilientes para lugares donde la conectividad convencional no llega
 
-The assessment is intended to help answer questions such as:
+Community Frequency es un proyecto independiente de exploración, investigación y factibilidad enfocado en una pregunta sencilla:
 
-- What communications systems are already being used?
-- Where are the actual connectivity gaps?
-- What environmental conditions affect low-power radio performance?
-- What infrastructure already exists?
-- Where could low-power mesh communications provide useful additional coverage?
-- What technical skills and resources are available locally?
-- What community ownership models could be appropriate?
-- What regulatory requirements apply?
-- What would a sustainable deployment and maintenance model require?
+> **¿Cómo pueden las comunidades mantener comunicaciones básicas cuando la conectividad celular o de Internet no llega o no es suficiente?**
 
-The findings will determine whether additional field testing or future deployment work is justified.
+Exploramos enfoques prácticos y orientados a las comunidades que puedan funcionar bajo diferentes condiciones geográficas, ambientales y de infraestructura.
 
-See:
+Este **no es un proyecto basado en una sola tecnología**. Las comunicaciones de bajo consumo y las redes mesh son una parte de una arquitectura más amplia que también puede incluir radio HF, conectividad satelital, redes celulares e Internet.
 
-- [`03 - Peru 2026/Peru Assessment.md`](03%20-%20Peru%202026/Peru%20Assessment.md)
+### Lo que estamos haciendo
 
----
+**Escuchar. Medir. Aprender. Construir.**
 
-## Field Experiments
+Comenzamos con investigación y pruebas de campo en lugar de asumir que una tecnología determinada es la respuesta. Documentamos qué funciona, qué no funciona, qué sigue siendo incierto y qué debería probarse después.
 
-Field experiments are used to evaluate real-world behavior rather than relying solely on theoretical or laboratory assumptions.
+Nuestra fase actual es:
 
-Experiments may examine:
+**Fase 0 — Descubrimiento y Factibilidad**
 
-- Range
-- Elevation
-- Terrain
-- Vegetation
-- Antenna configuration
-- Node placement
-- Message delivery
-- Hop behavior
-- Store-and-forward behavior
-- Power requirements
-- Environmental conditions
-- Operational usability
+El próximo paso importante es una **misión de factibilidad en Perú 2026**, cuyo objetivo es escuchar, observar y aprender directamente sobre las necesidades y condiciones locales de comunicación antes de proponer cualquier despliegue.
 
-Results are documented as they become available.
+### ¿Por qué Perú?
 
-See:
+Las comunidades remotas y desatendidas de Perú pueden enfrentar desafíos geográficos, de infraestructura y de conectividad que hacen que las comunicaciones convencionales sean difíciles o inexistentes.
 
-- [`02 - Field Experiments/Field Experiment Log.md`](02%20-%20Field%20Experiments/Field%20Experiment%20Log.md)
+El proyecto busca comprender especialmente cómo diferentes capas de comunicación pueden complementarse en lugar de competir:
 
----
+**Comunidad → comunicaciones locales/de bajo consumo → infraestructura elevada o regional → HF / satélite / celular / Internet**
 
-## Preliminary Findings
+La arquitectura real dependerá de lo que muestre la evaluación de campo.
 
-The project maintains a separate record of observations and findings so that conclusions can evolve as additional evidence becomes available.
+### Líneas tecnológicas
 
-Early observations should not be interpreted as final deployment recommendations.
+Community Frequency mantiene una posición neutral respecto de la tecnología.
 
-See:
+Actualmente estamos evaluando tecnologías de redes mesh de bajo consumo mediante líneas paralelas, incluyendo **Meshtastic** y **MeshCore**, mientras estudiamos cómo podrían coexistir con sistemas de comunicación establecidos como:
 
-- [`04 - Findings/Preliminary Findings.md`](04%20-%20Findings/Preliminary%20Findings.md)
+- Radio HF
+- Conectividad satelital
+- Redes celulares
+- Internet
+- Sensores y telemetría
 
----
+El objetivo de las pruebas no es demostrar que una tecnología es superior. Es entender dónde resulta útil cada enfoque, cuáles son sus limitaciones y cómo diferentes sistemas podrían trabajar juntos.
 
-## Why Publish the Work?
+### Lo que hemos aprendido hasta ahora
 
-The project is being developed openly so that supporters, researchers, engineers, radio operators, community organizations, and other potential collaborators can see what is actually being tested.
+Los experimentos de campo realizados en Arizona ya han evaluado comunicaciones directas, mensajes retransmitidos, comportamiento de múltiples saltos, repetidores, aprendizaje de rutas y pruebas móviles utilizando ambas líneas tecnológicas.
 
-Public documentation makes it possible to see:
+Los resultados se documentan como un registro público que evoluciona con el proyecto. Las mediciones se consideran observaciones y no se convierten automáticamente en conclusiones; las limitaciones y las incertidumbres conocidas se conservan.
 
-- What we planned to test
-- What we actually tested
-- What worked
-- What failed
-- What changed
-- What remains unknown
-- Why decisions were made
-- How conclusions develop over time
+### Explora el proyecto
 
-The objective is not to present a predetermined answer.
+Para conocer la descripción más completa del proyecto, su metodología, investigación, trabajo de campo y dirección actual, consulta:
 
-It is to document the process of finding the answer.
+**[Project Overview / Resumen del Proyecto](00%20-%20Project/Project%20Overview.md)**
 
----
+También puedes explorar:
 
-## Public / Private Documentation
+- **Investigación** — investigación tecnológica y de comunicaciones
+- **Experimentos de Campo** — pruebas y observaciones documentadas
+- **Perú 2026** — planificación y evaluación de la misión de factibilidad
+- **Hallazgos** — conclusiones y aprendizajes a medida que se desarrolla la evidencia
+- **Transparencia de Fondos** — información sobre fondos y equipos
+- **Historia del Proyecto** — evolución del proyecto a través del tiempo
 
-The GitHub repository is the project's **public publication layer**.
+### Ayúdanos a explorar qué es posible
 
-Detailed research and operational information is maintained separately in a private Master Vault.
+Community Frequency busca personas con experiencia en:
 
-Sensitive information intentionally excluded from the public repository may include:
+- comunicaciones rurales y remotas
+- radio HF y antenas
+- radio de bajo consumo y redes mesh
+- comunicaciones satelitales
+- energía solar y sistemas fuera de la red
+- comunicaciones de emergencia
+- despliegues de campo
+- tecnología comunitaria
+- investigación e ingeniería
+- desarrollo de comunidades indígenas y rurales
 
-- Raw packet logs
-- Sensitive geographic coordinates
-- Private network configurations
-- Credentials and keys
-- Personal information
-- Private organizational information
-- Sensitive partner or community information
-- Other information that could create security or privacy risks
+Los equipos, conocimientos técnicos, experiencia de campo, contactos y apoyo financiero pueden ayudar a avanzar el proyecto.
 
-The public record is therefore curated for transparency without exposing information that should remain private.
+### Un principio importante
 
----
+**No vamos a una comunidad con una solución predeterminada.**
 
-## Funding Transparency
+Primero vamos a escuchar.
 
-Community Frequency is currently being developed as an independent project.
-
-Project-specific funding and equipment information is documented publicly as the project develops.
-
-See:
-
-- [`06 - Funding Transparency/Project Funding.md`](06%20-%20Funding%20Transparency/Project%20Funding.md)
-- [`06 - Funding Transparency/Equipment.md`](06%20-%20Funding%20Transparency/Equipment.md)
-
----
-
-## Project Timeline
-
-The project timeline records major decisions, experiments, milestones, and changes in direction.
-
-See:
-
-- [`05 - Project History/Timeline.md`](05%20-%20Project%20History/Timeline.md)
-
----
-
-## Contributing
-
-Technical discussion and constructive criticism are welcome.
-
-Particularly useful contributions include:
-
-- Field-testing experience
-- Meshtastic experience
-- MeshCore experience
-- RF engineering knowledge
-- Antenna and propagation analysis
-- Power-system experience
-- Remote-network deployment experience
-- HF or satellite integration experience
-- Experience operating communications systems in remote environments
-- Knowledge of community-owned technology models
-- Peru or Latin American regulatory knowledge
-- Suggestions for reproducible testing methodologies
-
-If you have experience that could help answer a specific research question, please open an issue or start a discussion.
-
-**The most useful contribution is evidence.**
-
-If you disagree with an assumption or conclusion, showing how it can be tested is especially valuable.
-
----
-
-## Current Questions
-
-The project is intentionally maintaining unanswered questions.
-
-Among them:
-
-1. How well do low-power mesh networks perform in the environmental conditions encountered in remote communities?
-2. How much does elevation improve practical coverage?
-3. What network architectures are sustainable with limited power and intermittent infrastructure?
-4. How can mesh networks complement HF, satellite, or Internet backhaul?
-5. Which technical characteristics matter most for community-scale deployments?
-6. What maintenance and training requirements are realistic?
-7. What regulatory requirements must be addressed before field deployment?
-8. Which technology or combination of technologies best fits the actual requirements?
-
-These questions will change as evidence accumulates.
-
----
-
-## Repository Structure
-
-```text
-00 - Project/
-    Project Status
-    Project Transparency
-    Methodology
-
-01 - Research/
-    Technology Tracks
-
-02 - Field Experiments/
-    Field Experiment Log
-
-03 - Peru 2026/
-    Peru Assessment
-
-04 - Findings/
-    Preliminary Findings
-
-05 - Project History/
-    Timeline
-
-06 - Funding Transparency/
-    Project Funding
-    Equipment
-
-07 - Media/
-    Publication guidance
+**Escuchar. Medir. Aprender. Construir.**
