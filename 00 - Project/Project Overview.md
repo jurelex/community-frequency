@@ -236,7 +236,6 @@ The goal is to understand what people need to communicate, determine what the en
 
 **Listen. Measure. Learn. Build.**
 
-
 ---
 
 # Español

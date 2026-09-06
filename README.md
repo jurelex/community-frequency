@@ -92,7 +92,6 @@ We are going to listen first.
 
 **Listen. Measure. Learn. Build.**
 
-
 ---
 
 # Español
