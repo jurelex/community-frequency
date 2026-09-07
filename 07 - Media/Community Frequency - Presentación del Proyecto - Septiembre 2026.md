@@ -7,7 +7,7 @@ Documento para posibles donantes, profesionales, organizaciones e instituciones.
 
 > **Nota:** Este archivo es la versión Markdown de la presentación pública del proyecto. La presentación original se conserva en formato DOCX en este mismo directorio.
 
-**Presentación original:** [Community Frequency — Presentación del Proyecto — Septiembre 2026](Community%20Frequency%20-%20Presentaci%C3%B3n%20del%20Proyecto%20-%20Septiembre%202026.docx)
+**[⬇️ Descargar la presentación en Word (.DOCX)](https://raw.githubusercontent.com/jurelex/community-frequency/main/07%20-%20Media/Community%20Frequency%20-%20Presentaci%C3%B3n%20del%20Proyecto%20-%20Septiembre%202026.docx)**
 
 ---
 
