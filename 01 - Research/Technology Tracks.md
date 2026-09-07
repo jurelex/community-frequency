@@ -3,55 +3,75 @@
 ## English
 Community Frequency is technology-neutral. Low-power mesh is being evaluated as one component of a broader resilient communications architecture.
 
-| Technology | Role under evaluation |
+Following the September 7, 2026 platform decision, **Meshtastic is the primary platform focus**. MeshCore remains a preserved research track, but active testing is paused.
+
+| Technology | Current role |
 |---|---|
-| Meshtastic | Mobile/community mesh, telemetry, GPS, field participation |
-| MeshCore | Fixed infrastructure, repeaters, learned paths, field messaging |
+| Meshtastic | **Primary platform** — mobile/community mesh, telemetry, GPS, field participation, fixed infrastructure, and deployment research |
+| MeshCore | **Paused research track** — preserved documentation and experimental infrastructure; may be revisited if specifically justified |
 | HF | Long-range backhaul and communications where appropriate |
 | Satellite / Internet | Connected backhaul and remote-area connectivity |
 | Cellular | Existing connectivity where available |
 
 ### Meshtastic
-Meshtastic is being evaluated for mobile operation, telemetry/GPS, community participation, and multi-hop behavior.
+
+Meshtastic is the primary platform under evaluation for mobile operation, telemetry/GPS, community participation, fixed infrastructure, field deployments, Raspberry Pi integration, and data collection/monitoring.
 
 ### MeshCore
-MeshCore is being evaluated for fixed infrastructure and field messaging, including Companion, Repeater, Advert, Contact, Path, Direct, Flood, ACK/Delivered, and Path Hash.
 
-Field observations include path learning, transition from Flood to Direct, repeater-confirmed delivery, and multi-hop behavior. These observations remain experimental.
+MeshCore testing is paused. Existing research remains documented, including Companion, Repeater, Advert, Contact, Path, Direct, Flood, ACK/Delivered, Path Hash, path learning, repeater-confirmed delivery, and multi-hop behavior.
 
-### Working hypothesis
-A current working hypothesis—not a conclusion—is that Meshtastic may be particularly useful for mobile/telemetry/GPS/community participation, while MeshCore may offer useful characteristics for fixed infrastructure and learned-path operation. This requires further testing.
+These observations remain part of the project's experimental record and are not treated as a deployment recommendation.
 
-### Conceptual hybrid architecture
-Remote community → low-power mesh → elevated/solar repeater → connected community/base → HF, satellite, or Internet backhaul.
+### Current platform hypothesis
 
-The architecture is conceptual, not a deployment recommendation.
+The current working direction is that Meshtastic is the better operational fit for the present Community Frequency objectives, particularly where maintainability, field serviceability, documentation, trainability, and long-term operational simplicity matter alongside technical capability.
+
+This is a current platform decision for the project, not a claim that MeshCore is technically incapable or unsuitable for every use case. Future reconsideration remains possible if a specific requirement justifies it.
+
+### Conceptual architecture
+
+COMMUNITY FREQUENCY → MESHTASTIC → mobile nodes / fixed nodes / field deployments → Raspberry Pi monitoring, data, and services
+
+A broader resilient communications architecture may also incorporate HF, satellite, Internet, cellular, elevated repeaters, and other appropriate technologies as evidence from the field warrants.
+
+The architecture remains subject to field validation and is not a blanket deployment recommendation.
 
 ---
 
 ## Español
 Community Frequency mantiene una postura tecnológicamente neutral. Las redes mesh de bajo consumo se están evaluando como un componente de una arquitectura más amplia de comunicaciones resilientes.
 
-| Tecnología | Función en evaluación |
+Después de la decisión de plataforma del 7 de septiembre de 2026, **Meshtastic es el enfoque principal del proyecto**. MeshCore permanece como una línea de investigación preservada, pero las pruebas activas están pausadas.
+
+| Tecnología | Función actual |
 |---|---|
-| Meshtastic | Mesh móvil/comunitaria, telemetría, GPS, participación en campo |
-| MeshCore | Infraestructura fija, repetidores, rutas aprendidas, mensajería de campo |
+| Meshtastic | **Plataforma principal** — mesh móvil/comunitaria, telemetría, GPS, participación en campo, infraestructura fija e investigación de despliegue |
+| MeshCore | **Línea de investigación pausada** — documentación e infraestructura experimental preservadas; podrá reconsiderarse si existe una justificación específica |
 | HF | Comunicaciones y backhaul de largo alcance cuando corresponda |
 | Satélite / Internet | Backhaul conectado y conectividad en zonas remotas |
 | Celular | Conectividad existente donde esté disponible |
 
 ### Meshtastic
-Meshtastic se está evaluando para operación móvil, telemetría/GPS, participación comunitaria y comportamiento de múltiples saltos.
+
+Meshtastic es la plataforma principal bajo evaluación para operación móvil, telemetría/GPS, participación comunitaria, infraestructura fija, despliegues de campo, integración con Raspberry Pi y recopilación/monitoreo de datos.
 
 ### MeshCore
-MeshCore se está evaluando para infraestructura fija y mensajería de campo, incluyendo Companion, Repeater, Advert, Contact, Path, Direct, Flood, ACK/Delivered y Path Hash.
 
-Las observaciones de campo incluyen aprendizaje de rutas, transición de Flood a Direct, entregas confirmadas por repetidores y comportamiento de múltiples saltos. Estas observaciones siguen siendo experimentales.
+Las pruebas con MeshCore están pausadas. La investigación existente permanece documentada, incluyendo Companion, Repeater, Advert, Contact, Path, Direct, Flood, ACK/Delivered, Path Hash, aprendizaje de rutas, entregas confirmadas por repetidores y comportamiento de múltiples saltos.
 
-### Hipótesis de trabajo
-Una hipótesis de trabajo actual —no una conclusión— es que Meshtastic podría ser especialmente útil para operación móvil, telemetría/GPS y participación comunitaria, mientras que MeshCore podría ofrecer características útiles para infraestructura fija y operación mediante rutas aprendidas. Esta hipótesis requiere pruebas adicionales.
+Estas observaciones permanecen como parte del registro experimental del proyecto y no se consideran una recomendación de despliegue.
 
-### Arquitectura híbrida conceptual
-Comunidad remota → mesh de bajo consumo → repetidor elevado/solar → comunidad o base conectada → backhaul mediante HF, satélite o Internet.
+### Hipótesis actual de plataforma
 
-La arquitectura es conceptual y no constituye una recomendación de despliegue.
+La dirección actual de trabajo es que Meshtastic representa un mejor ajuste operativo para los objetivos actuales de Community Frequency, especialmente cuando la mantenibilidad, la facilidad de servicio en campo, la documentación, la capacitación y la simplicidad operativa a largo plazo importan tanto como la capacidad técnica.
+
+Esta es una decisión de plataforma para la etapa actual del proyecto, no una afirmación de que MeshCore sea técnicamente incapaz o inadecuado para todos los casos de uso. Sigue siendo posible reconsiderarlo si un requisito específico lo justifica.
+
+### Arquitectura conceptual
+
+COMMUNITY FREQUENCY → MESHTASTIC → nodos móviles / nodos fijos / despliegues de campo → Raspberry Pi para monitoreo, datos y servicios
+
+Una arquitectura más amplia de comunicaciones resilientes también podría incorporar HF, satélite, Internet, redes celulares, repetidores elevados y otras tecnologías apropiadas cuando la evidencia de campo lo justifique.
+
+La arquitectura continúa sujeta a validación en campo y no constituye una recomendación general de despliegue.
