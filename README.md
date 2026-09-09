@@ -1,189 +1,293 @@
 # Community Frequency
 
-## Resilient communications for places where conventional connectivity does not reach
+## Researching whether affordable mesh communications can connect rural communities in Peru
 
-Community Frequency is an independent exploration, research, and feasibility project focused on one simple question:
+**Community Frequency** is an independent research and feasibility project focused specifically on rural Andean and rainforest communities in Peru where geographic isolation can place communities outside conventional communications infrastructure.
 
-> **How can communities maintain basic communications when cellular or Internet connectivity does not reach them or is not enough?**
+This is **not a generic mesh-network experiment in the United States**. The technical work exists to investigate a Peru-specific problem:
 
-We explore practical, community-oriented communications approaches that can work across different environments and infrastructure conditions.
+> **Can inexpensive, low-power mesh networking provide useful communications for geographically isolated communities in Peru without requiring access to commercial cellular or Internet networks?**
 
-This is **not a project built around one technology**. Low-power mesh is one part of a broader communications architecture that may also include HF radio, satellite, cellular networks, and the Internet.
+The project has a social purpose as well as a technical one. People living in isolated communities can face significant barriers to communication because of geography, infrastructure, and economic conditions. Community Frequency is researching whether affordable, independent communications can help reduce part of that gap.
 
-### What we are doing
+## Step Zero — Peru 2026
 
-**Listen. Measure. Learn. Build.**
+The first major stage is **Step Zero**, a research and feasibility mission planned for September 2026.
 
-We are beginning with research and field testing rather than assuming that a particular technology is the answer. We document what works, what does not, what remains uncertain, and what should be tested next.
+### 1. Establish the regulatory baseline
 
-Our current phase is:
+Before field operation, we will research applicable Peruvian telecommunications requirements and seek meetings and interviews with the **Ministerio de Transportes y Comunicaciones (MTC)**.
 
-**Phase 0 — Discovery & Feasibility**
+The goal is to establish what hardware, frequencies, power levels, antennas, and configurations can legally be used in Peru.
 
-The next major step is a planned **Peru 2026 feasibility mission**, where the goal is to listen, observe, and learn directly about local communications needs and conditions before proposing any deployment.
+Several candidate boards are already used by members of the Peruvian mesh community. That demonstrates local availability and community interest; it does **not** by itself establish regulatory approval.
 
-### Why Peru?
+### 2. Learn and test in Lima
 
-Remote and underserved communities in Peru can face geographic, infrastructure, and connectivity challenges that make conventional communications difficult or unavailable.
+We will meet with members of Peru's existing mesh community in Lima and exchange practical experience.
 
-The project is particularly interested in understanding how different communications layers might complement one another rather than compete:
+Lima will also provide an initial opportunity to compare **Meshtastic and MeshCore** through practical testing in the Peruvian context.
 
-**Community → local/low-power communications → elevated or regional infrastructure → HF / satellite / cellular / Internet**
+The purpose is not to declare a winner. It is to understand how each approach behaves, where each is useful or limited, and which may better fit the problem we are trying to address.
 
-The actual architecture will depend on what the field assessment shows.
+### 3. Field assessment in northern Peru
 
-### Technology tracks
+The project will then travel to northern Peru and meet with a community near the **Peru–Ecuador border**.
 
-Community Frequency is technology-neutral.
+Testing there will move beyond an urban environment into a real rural context, where terrain, infrastructure, power availability, node placement, and community needs can be evaluated together.
 
-We are currently evaluating low-power mesh technologies through parallel tracks, including **Meshtastic** and **MeshCore**, while also considering how they could coexist with established communications such as:
+## What we are researching
 
-- HF radio
-- Satellite connectivity
-- Cellular networks
-- Internet connectivity
-- Sensors and telemetry
+The technical focus is **affordable, low-power mesh communications**.
 
-The purpose of testing is not to prove that one technology is superior. It is to understand where each approach is useful, where it is limited, and how different systems might work together.
+Current tracks include:
 
-### What we have learned so far
+- **Meshtastic**
+- **MeshCore**
+- Low-power LoRa hardware
+- Portable and solar-powered nodes
+- Antennas and node placement
+- Multi-hop communication
+- GPS/GNSS-enabled field nodes
+- Battery and power requirements
 
-Field experiments in Arizona have already examined direct communications, relayed messages, multi-hop behavior, repeaters, route learning, and mobile testing across both technology tracks.
+Other communications systems may be encountered during the research, but the experiment is centered on mesh networking. We are not trying to perform a generic comparison of every communications technology.
 
-The results are being documented as an evolving public record. Measurements are treated as observations rather than automatically as conclusions, and known limitations or uncertainties are preserved.
+## What we need to learn
 
-### Explore the project
+Range alone is not enough. We will investigate:
 
-For the deeper description of the project, its methodology, research, field work, and current direction, see:
+- message and packet reliability;
+- practical coverage;
+- terrain and elevation;
+- node and antenna placement;
+- multi-hop behavior;
+- power consumption and battery life;
+- solar operation;
+- setup and configuration complexity;
+- usability by non-specialists;
+- maintenance requirements;
+- equipment cost and availability;
+- regulatory requirements;
+- and whether the resulting communications provide meaningful value to the community.
 
-**[Project Overview / Resumen del Proyecto](00%20-%20Project/Project%20Overview.md)**
+A successful radio test does not automatically mean a successful community solution.
 
-You can also explore:
+## Initial equipment target
 
-- **Research** — technology and communications research
-- **Field Experiments** — documented tests and observations
-- **Peru 2026** — feasibility mission planning and assessment
-- **Findings** — conclusions and lessons as evidence develops
-- **Funding Transparency** — project funding and equipment information
-- **Project History** — how the project has developed over time
+This is the equipment we **would like to acquire for Step Zero**. It is a target, not a list of equipment already purchased or approved for operation in Peru.
 
-### Help us explore what is possible
+- 2 × BQ G3 nodes
+- 2 × external antennas for the BQ G3 nodes
+- 4 × Heltec V4
+- 2 × Heltec T114
+- 4 × GPS/GNSS kits for the V4/T114 units
+- 2 × Seeed Studio Solar Pro 2 nodes
+- 6 × Muzi Works 915 MHz antennas
+- 6 × batteries
+- cables, connectors, mounting hardware, and field accessories
+- 3D-printed cases, mounts, brackets, and other mechanical parts
 
-Community Frequency is looking for people with experience in:
+Several Heltec and Seeed devices are already used by Peruvian mesh hobbyists and are available in the local ecosystem. The BQ G3 is a newer candidate for evaluation.
 
-- rural and remote communications
-- HF radio and antennas
-- low-power radio and mesh networking
-- satellite communications
-- solar and off-grid power
-- emergency communications
-- field deployments
-- community technology
-- research and engineering
-- Indigenous and rural community development
+Where practical, enclosures and mechanical components will be 3D printed to keep the equipment inexpensive and adaptable.
 
-Equipment, technical knowledge, field experience, introductions, and financial support can all help move the project forward.
+The equipment list remains subject to the Peruvian regulatory review.
 
-### An important principle
+## Why funding is needed
 
-We are **not going to a community with a predetermined solution**.
+Community Frequency is an independent project. The initial equipment must be acquired before the field work can happen.
 
-We are going to listen first.
+The project's GoFundMe helps cover equipment and field expenses. The desired equipment list represents what we would like to take into the field; funding determines how much of that kit we can actually acquire.
 
-**Listen. Measure. Learn. Build.**
+The objective is not expensive infrastructure. It is to investigate whether **affordable, independent communications hardware** can become a practical tool for communities that cannot depend on commercial networks.
+
+## Research before deployment
+
+Community Frequency is not going to Peru with a finished network to install.
+
+We are going to research:
+
+**What is legal?**
+
+**What is available?**
+
+**What works in Lima?**
+
+**What works in the field?**
+
+**What do communities actually need?**
+
+**Could an affordable mesh system be useful and sustainable?**
+
+Only evidence from that process can justify a future pilot or deployment.
+
+## Documentation
+
+The public repository records the project's research, field experiments, findings, funding information, and history.
+
+The goal is to preserve the actual research process:
+
+**what was planned → what was tested → what happened → what was learned → what remains uncertain → what comes next**
+
+Failed tests and limitations are part of the record. The purpose is to produce useful evidence, not marketing claims.
+
+## Participate
+
+We are looking for people who can contribute amateur-radio and RF experience, Meshtastic or MeshCore knowledge, antennas and propagation expertise, portable/off-grid power experience, field-testing methodology, rural or remote communications experience, experience working with rural or Indigenous communities, connections in Peru, equipment, technical resources, or financial support for the feasibility work.
+
+## The principle
+
+> **When the network ends, the community doesn't.**
+
+The purpose of Community Frequency is to research whether practical, affordable mesh communications can help reduce the connectivity gap experienced by rural Andean and rainforest communities in Peru.
+
+We will not assume the answer.
+
+**We will research it.**
 
 ---
 
 # Español
 
-## Comunicaciones resilientes para lugares donde la conectividad convencional no llega
+## Investigando si las comunicaciones mesh económicas pueden conectar comunidades rurales del Perú
 
-Community Frequency es un proyecto independiente de exploración, investigación y factibilidad enfocado en una pregunta sencilla:
+**Community Frequency** es un proyecto independiente de investigación y factibilidad enfocado específicamente en comunidades rurales de los Andes y de la selva peruana donde el aislamiento geográfico puede dejar a las comunidades fuera de la infraestructura convencional de comunicaciones.
 
-> **¿Cómo pueden las comunidades mantener comunicaciones básicas cuando la conectividad celular o de Internet no llega o no es suficiente?**
+Este **no es un experimento genérico de redes mesh en Estados Unidos**. El trabajo técnico busca investigar un problema específico del Perú:
 
-Exploramos enfoques prácticos y orientados a las comunidades que puedan funcionar bajo diferentes condiciones geográficas, ambientales y de infraestructura.
+> **¿Pueden las redes mesh de bajo consumo y hardware económico proporcionar comunicaciones útiles a comunidades geográficamente aisladas del Perú sin depender de redes comerciales de celular o Internet?**
 
-Este **no es un proyecto basado en una sola tecnología**. Las comunicaciones de bajo consumo y las redes mesh son una parte de una arquitectura más amplia que también puede incluir radio HF, conectividad satelital, redes celulares e Internet.
+El proyecto tiene un propósito social además de técnico. Las personas que viven en comunidades aisladas pueden enfrentar importantes barreras de comunicación debido a la geografía, la infraestructura y las condiciones económicas. Community Frequency investiga si las comunicaciones independientes y económicas pueden ayudar a reducir parte de esa brecha.
 
-### Lo que estamos haciendo
+## Paso Cero — Perú 2026
 
-**Escuchar. Medir. Aprender. Construir.**
+La primera etapa importante es **Paso Cero**, una misión de investigación y factibilidad prevista para septiembre de 2026.
 
-Comenzamos con investigación y pruebas de campo en lugar de asumir que una tecnología determinada es la respuesta. Documentamos qué funciona, qué no funciona, qué sigue siendo incierto y qué debería probarse después.
+### 1. Establecer la línea base regulatoria
 
-Nuestra fase actual es:
+Antes de operar equipos en el campo, investigaremos los requisitos peruanos aplicables a las telecomunicaciones y buscaremos reuniones y entrevistas con el **Ministerio de Transportes y Comunicaciones (MTC)**.
 
-**Fase 0 — Descubrimiento y Factibilidad**
+El objetivo es establecer qué equipos, frecuencias, niveles de potencia, antenas y configuraciones pueden utilizarse legalmente en el Perú.
 
-El próximo paso importante es una **misión de factibilidad en Perú 2026**, cuyo objetivo es escuchar, observar y aprender directamente sobre las necesidades y condiciones locales de comunicación antes de proponer cualquier despliegue.
+Algunas placas candidatas ya son utilizadas por miembros de la comunidad mesh peruana. Esto demuestra disponibilidad local e interés de la comunidad; **no** demuestra por sí mismo autorización regulatoria.
 
-### ¿Por qué Perú?
+### 2. Aprender y probar en Lima
 
-Las comunidades remotas y desatendidas de Perú pueden enfrentar desafíos geográficos, de infraestructura y de conectividad que hacen que las comunicaciones convencionales sean difíciles o inexistentes.
+Nos reuniremos con miembros de la comunidad mesh existente en Lima para intercambiar experiencias prácticas.
 
-El proyecto busca comprender especialmente cómo diferentes capas de comunicación pueden complementarse en lugar de competir:
+Lima también permitirá una primera comparación entre **Meshtastic y MeshCore** mediante pruebas prácticas en el contexto peruano.
 
-**Comunidad → comunicaciones locales/de bajo consumo → infraestructura elevada o regional → HF / satélite / celular / Internet**
+El objetivo no es declarar un ganador. Es entender cómo se comporta cada enfoque, dónde resulta útil o limitado y cuál podría adaptarse mejor al problema que buscamos abordar.
 
-La arquitectura real dependerá de lo que muestre la evaluación de campo.
+### 3. Evaluación de campo en el norte del Perú
 
-### Líneas tecnológicas
+Después viajaremos al norte del Perú para reunirnos con una comunidad cercana a la **frontera entre Perú y Ecuador**.
 
-Community Frequency mantiene una posición neutral respecto de la tecnología.
+Las pruebas pasarán del entorno urbano a un contexto rural real, donde podrán evaluarse conjuntamente el terreno, la infraestructura, la disponibilidad de energía, la ubicación de los nodos y las necesidades de la comunidad.
 
-Actualmente estamos evaluando tecnologías de redes mesh de bajo consumo mediante líneas paralelas, incluyendo **Meshtastic** y **MeshCore**, mientras estudiamos cómo podrían coexistir con sistemas de comunicación establecidos como:
+## Qué estamos investigando
 
-- Radio HF
-- Conectividad satelital
-- Redes celulares
-- Internet
-- Sensores y telemetría
+El enfoque técnico es **comunicaciones mesh económicas y de bajo consumo**.
 
-El objetivo de las pruebas no es demostrar que una tecnología es superior. Es entender dónde resulta útil cada enfoque, cuáles son sus limitaciones y cómo diferentes sistemas podrían trabajar juntos.
+Las líneas actuales incluyen:
 
-### Lo que hemos aprendido hasta ahora
+- **Meshtastic**
+- **MeshCore**
+- Hardware LoRa de bajo consumo
+- Nodos portátiles y alimentados por energía solar
+- Antenas y ubicación de nodos
+- Comunicación de múltiples saltos
+- Nodos de campo con GPS/GNSS
+- Requerimientos de batería y energía
 
-Los experimentos de campo realizados en Arizona ya han evaluado comunicaciones directas, mensajes retransmitidos, comportamiento de múltiples saltos, repetidores, aprendizaje de rutas y pruebas móviles utilizando ambas líneas tecnológicas.
+Podremos encontrar otros sistemas de comunicación durante la investigación, pero el experimento está centrado en las redes mesh. No buscamos hacer una comparación genérica de todas las tecnologías de comunicación.
 
-Los resultados se documentan como un registro público que evoluciona con el proyecto. Las mediciones se consideran observaciones y no se convierten automáticamente en conclusiones; las limitaciones y las incertidumbres conocidas se conservan.
+## Qué necesitamos aprender
 
-### Explora el proyecto
+El alcance por sí solo no es suficiente. Investigaremos:
 
-Para conocer la descripción más completa del proyecto, su metodología, investigación, trabajo de campo y dirección actual, consulta:
+- confiabilidad de mensajes y paquetes;
+- cobertura práctica;
+- terreno y elevación;
+- ubicación de nodos y antenas;
+- comportamiento de múltiples saltos;
+- consumo de energía y duración de baterías;
+- funcionamiento solar;
+- complejidad de instalación y configuración;
+- facilidad de uso para personas que no son especialistas;
+- mantenimiento;
+- costo y disponibilidad del equipo;
+- requisitos regulatorios;
+- y si las comunicaciones resultantes aportan un valor real a la comunidad.
 
-**[Project Overview / Resumen del Proyecto](00%20-%20Project/Project%20Overview.md)**
+Una prueba de radio exitosa no significa automáticamente que exista una solución comunitaria exitosa.
 
-También puedes explorar:
+## Objetivo inicial de equipos
 
-- **Investigación** — investigación tecnológica y de comunicaciones
-- **Experimentos de Campo** — pruebas y observaciones documentadas
-- **Perú 2026** — planificación y evaluación de la misión de factibilidad
-- **Hallazgos** — conclusiones y aprendizajes a medida que se desarrolla la evidencia
-- **Transparencia de Fondos** — información sobre fondos y equipos
-- **Historia del Proyecto** — evolución del proyecto a través del tiempo
+Estos son los equipos que **nos gustaría adquirir para Paso Cero**. Es un objetivo, no una lista de equipos ya comprados o aprobados para operar en el Perú.
 
-### Ayúdanos a explorar qué es posible
+- 2 × nodos BQ G3
+- 2 × antenas externas para los BQ G3
+- 4 × Heltec V4
+- 2 × Heltec T114
+- 4 × kits GPS/GNSS para las unidades V4/T114
+- 2 × nodos Seeed Studio Solar Pro 2
+- 6 × antenas Muzi Works de 915 MHz
+- 6 × baterías
+- cables, conectores, soportes y accesorios de campo
+- cajas, soportes y otras piezas mecánicas impresas en 3D
 
-Community Frequency busca personas con experiencia en:
+Varios equipos Heltec y Seeed ya son utilizados por radioaficionados mesh peruanos y están disponibles dentro del ecosistema local. El BQ G3 es un candidato nuevo para evaluación.
 
-- comunicaciones rurales y remotas
-- radio HF y antenas
-- radio de bajo consumo y redes mesh
-- comunicaciones satelitales
-- energía solar y sistemas fuera de la red
-- comunicaciones de emergencia
-- despliegues de campo
-- tecnología comunitaria
-- investigación e ingeniería
-- desarrollo de comunidades indígenas y rurales
+Cuando sea práctico, las cajas y piezas mecánicas serán impresas en 3D para mantener el equipo económico y adaptable.
 
-Los equipos, conocimientos técnicos, experiencia de campo, contactos y apoyo financiero pueden ayudar a avanzar el proyecto.
+La lista de equipos sigue sujeta a la evaluación regulatoria peruana.
 
-### Un principio importante
+## Por qué necesitamos financiamiento
 
-**No vamos a una comunidad con una solución predeterminada.**
+Community Frequency es un proyecto independiente. El equipo inicial debe adquirirse antes de realizar el trabajo de campo.
 
-Primero vamos a escuchar.
+El GoFundMe del proyecto ayuda a cubrir equipos y gastos de campo. La lista representa lo que nos gustaría llevar al terreno; el financiamiento determinará cuánto podremos adquirir.
 
-**Escuchar. Medir. Aprender. Construir.**
+El objetivo no es crear infraestructura costosa. Es investigar si **equipos de comunicación independientes y económicos** pueden convertirse en una herramienta práctica para comunidades que no pueden depender de redes comerciales.
+
+## Investigación antes del despliegue
+
+Community Frequency no va a Perú con una red terminada para instalar.
+
+Vamos a investigar:
+
+**¿Qué es legal?**
+
+**¿Qué está disponible?**
+
+**¿Qué funciona en Lima?**
+
+**¿Qué funciona en el campo?**
+
+**¿Qué necesitan realmente las comunidades?**
+
+**¿Podría un sistema mesh económico ser útil y sostenible?**
+
+Solo la evidencia obtenida durante ese proceso puede justificar un futuro piloto o despliegue.
+
+## Documentación
+
+El repositorio público registra la investigación, los experimentos de campo, los hallazgos, la información de financiamiento y la historia del proyecto.
+
+El objetivo es conservar el proceso real de investigación:
+
+**lo que se planeó → lo que se probó → lo que ocurrió → lo que se aprendió → lo que sigue siendo incierto → lo que viene después**
+
+Las pruebas fallidas y las limitaciones forman parte del registro. El propósito es producir evidencia útil, no afirmaciones de marketing.
+
+## El principio
+
+> **Cuando termina la red, la comunidad no.**
+
+El propósito de Community Frequency es investigar si las comunicaciones mesh prácticas y económicas pueden ayudar a reducir la brecha de conectividad que experimentan las comunidades rurales de los Andes y la selva del Perú.
+
+No vamos a asumir la respuesta.
+
+**Vamos a investigarla.**
