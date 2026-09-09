@@ -106,7 +106,11 @@ The objective is not expensive infrastructure. It is to investigate whether **af
 
 Community Frequency is not going to Peru with a finished network to install.
 
-We are going to research:
+The guiding principle is:
+
+> **Research the need. Test the technology. Let the evidence shape the solution.**
+
+The research will ask:
 
 **What is legal?**
 
@@ -141,10 +145,6 @@ We are looking for people who can contribute amateur-radio and RF experience, Me
 > **When the network ends, the community doesn't.**
 
 The purpose of Community Frequency is to research whether practical, affordable mesh communications can help reduce the connectivity gap experienced by rural Andean and rainforest communities in Peru.
-
-We will not assume the answer.
-
-**We will research it.**
 
 ---
 
@@ -256,7 +256,11 @@ El objetivo no es crear infraestructura costosa. Es investigar si **equipos de c
 
 Community Frequency no va a Perú con una red terminada para instalar.
 
-Vamos a investigar:
+El principio que guía el proyecto es:
+
+> **Investigar la necesidad. Probar la tecnología. Dejar que la evidencia dé forma a la solución.**
+
+La investigación preguntará:
 
 **¿Qué es legal?**
 
@@ -287,7 +291,3 @@ Las pruebas fallidas y las limitaciones forman parte del registro. El propósito
 > **Cuando termina la red, la comunidad no.**
 
 El propósito de Community Frequency es investigar si las comunicaciones mesh prácticas y económicas pueden ayudar a reducir la brecha de conectividad que experimentan las comunidades rurales de los Andes y la selva del Perú.
-
-No vamos a asumir la respuesta.
-
-**Vamos a investigarla.**
