@@ -1,20 +1,24 @@
-# Media / Material Multimedia
+# Media / Project Materials
 
 ## Project Presentation
 
-### Word Document
+### English
 
-**[⬇️ Download the Community Frequency Project Presentation — Word Document (.DOCX)](https://raw.githubusercontent.com/jurelex/community-frequency/main/07%20-%20Media/Community%20Frequency%20-%20Presentaci%C3%B3n%20del%20Proyecto%20-%20Septiembre%202026.docx)**
+**[⬇️ Download the Community Frequency Project Presentation — Word Document (.DOCX)](Community%20Frequency%20-%20Project%20Presentation%20-%20September%202026.docx)**  
+**[Read the project presentation as Markdown](Community%20Frequency%20-%20Project%20Presentation%20-%20September%202026.md)**
 
-The Word document is provided for people who prefer a downloadable, editable document. You do **not** need to understand GitHub to download it — click the link above.
+The English version reflects the current Community Frequency research approach: the project begins with the communications needs of rural and geographically isolated communities in Peru, with mesh communications as the technology being evaluated.
 
-### Markdown Version
+### Español
 
-**[Read the presentation as Markdown](Community%20Frequency%20-%20Presentaci%C3%B3n%20del%20Proyecto%20-%20Septiembre%202026.md)**
+**[⬇️ Descargar la Presentación del Proyecto de Community Frequency — Documento Word (.DOCX)](Community%20Frequency%20-%20Presentación%20del%20Proyecto%20-%20Septiembre%202026.docx)**  
+**[Leer la presentación del proyecto en Markdown](Community%20Frequency%20-%20Presentación%20del%20Proyecto%20-%20Septiembre%202026.md)**
+
+La versión en español refleja el enfoque actual de investigación de Community Frequency: el proyecto comienza con las necesidades de comunicación de comunidades rurales y geográficamente aisladas de Perú, y las comunicaciones mesh son la tecnología que se está evaluando.
 
 ---
 
-## English
+## Public Media Guidelines
 
 This directory is for publicly cleared photographs, diagrams, screenshots, maps, presentations, and other project media.
 
@@ -22,16 +26,4 @@ Before publication, confirm that media does not expose credentials, private addr
 
 Where appropriate, media should include enough context to identify the date, experiment, and evidence it represents without exposing sensitive operational details.
 
-## Español
-
-Este directorio está destinado a fotografías, diagramas, capturas de pantalla, mapas, presentaciones y otros materiales del proyecto que hayan sido aprobados para publicación pública.
-
-### Descargar el documento de Word
-
-**[⬇️ Descargar la Presentación del Proyecto de Community Frequency — Documento Word (.DOCX)](https://raw.githubusercontent.com/jurelex/community-frequency/main/07%20-%20Media/Community%20Frequency%20-%20Presentaci%C3%B3n%20del%20Proyecto%20-%20Septiembre%202026.docx)**
-
-No es necesario saber cómo funciona GitHub para descargarlo. Simplemente haga clic en el enlace de arriba.
-
-Antes de publicar cualquier material, confirmar que no exponga credenciales, direcciones privadas, información GPS sensible, información personal, claves de seguridad u otro contenido que deba permanecer privado.
-
-Cuando corresponda, el material debe incluir suficiente contexto para identificar la fecha, el experimento y la evidencia que representa sin exponer detalles operativos sensibles.
+Before publishing technical results, verify that the material is consistent with the project's current research framing and documentation standards.
