@@ -1,198 +1,242 @@
 # Community Frequency — Presentación del Proyecto
 
-**Comunicaciones comunitarias resilientes mediante redes mesh**  
+**Investigando si las comunicaciones mesh de bajo costo pueden ayudar a conectar comunidades rurales y geográficamente aisladas en Perú.**  
 **Septiembre de 2026**
 
-Documento para posibles donantes, profesionales, organizaciones e instituciones.
+Community Frequency es un proyecto independiente de investigación enfocado en una pregunta específica: si las comunicaciones mesh, económicas y de bajo consumo, pueden proporcionar comunicaciones útiles para comunidades rurales y geográficamente aisladas de Perú donde la infraestructura celular o de Internet convencional puede ser limitada o no estar disponible.
 
-> **Nota:** Este archivo es la versión Markdown de la presentación pública del proyecto. La presentación original se conserva en formato DOCX en este mismo directorio.
-
-**[⬇️ Descargar la presentación en Word (.DOCX)](https://raw.githubusercontent.com/jurelex/community-frequency/main/07%20-%20Media/Community%20Frequency%20-%20Presentaci%C3%B3n%20del%20Proyecto%20-%20Septiembre%202026.docx)**
+Este no es un proyecto general de despliegue de redes mesh. **Perú es la razón de la investigación; las comunicaciones mesh son la tecnología que estamos evaluando.**
 
 ---
 
-## 1. Una idea sencilla
+## 1. El problema que queremos entender
 
-La comunicación es una parte esencial de una comunidad resiliente. Cuando una emergencia, un desastre, un corte de energía o una dificultad geográfica afecta la infraestructura convencional, mantener una vía de comunicación puede convertirse en un desafío.
+En las regiones rurales de los Andes y la Amazonía peruana, el aislamiento geográfico puede dejar a comunidades fuera de la infraestructura convencional de comunicaciones.
 
-Community Frequency explora una pregunta sencilla:
+La cobertura celular limitada, el acceso a Internet, la disponibilidad de energía y el terreno difícil pueden hacer que comunicarse sea mucho más complicado.
 
-> **¿Podemos crear una capa adicional de comunicación que permita a una comunidad mantenerse conectada aun cuando las redes convencionales no estén disponibles?**
+Para comunidades que ya enfrentan desventajas económicas y geográficas, la falta de conectividad puede convertirse en otra barrera para las oportunidades, la educación, la asistencia ante emergencias, los servicios de salud y la conexión con el mundo exterior.
 
-La respuesta que estamos investigando son las redes mesh comunitarias: sistemas de comunicación distribuidos en los que diferentes dispositivos pueden colaborar para transportar información.
+**Community Frequency comienza con ese problema comunitario.**
 
-## 2. ¿Qué estamos proponiendo?
+## 2. La pregunta
 
-Community Frequency no propone reemplazar Internet, la telefonía celular ni los sistemas profesionales de emergencia. La propuesta es investigar una capa adicional de infraestructura que pueda complementar esos sistemas.
+La pregunta técnica es específica:
 
-Una red mesh puede utilizar dispositivos distribuidos estratégicamente para permitir que los mensajes pasen de un punto a otro. A medida que se agregan nodos, la red puede crecer y adaptarse al entorno.
+> **¿Puede una red mesh económica y de bajo consumo proporcionar comunicaciones útiles sin requerir acceso a redes celulares comerciales o a Internet?**
 
-El proyecto busca determinar, mediante pruebas reales, cuándo esta tecnología resulta útil, cuáles son sus límites y cómo podría implementarse de manera responsable.
+El proyecto no está asumiendo que la respuesta sea sí.
 
-## 3. ¿Por qué importa?
+El propósito de la investigación es determinar si las redes mesh pueden aportar un valor significativo en los entornos y circunstancias que estamos estudiando.
 
-- Las redes convencionales dependen de infraestructura física y energética.
-- Las zonas rurales, montañosas o remotas pueden presentar desafíos de conectividad.
-- Las emergencias pueden interrumpir temporalmente servicios convencionales.
-- Una infraestructura adicional puede aportar opciones de comunicación.
-- Las tecnologías accesibles permiten investigar soluciones que antes requerían inversiones mucho mayores.
+## 3. ¿Por qué mesh?
 
-## 4. ¿Qué es una red mesh?
+Las redes mesh son el enfoque técnico que actualmente estamos investigando.
 
-En términos sencillos, imagine que varias personas están distribuidas en una comunidad. Si dos personas están demasiado lejos para comunicarse directamente, otros dispositivos ubicados entre ellas pueden ayudar a transportar el mensaje.
-
-La red deja de depender exclusivamente de un único punto central y pasa a estar formada por varios puntos que colaboran.
+En una red mesh, dispositivos distribuidos pueden comunicarse entre sí y, cuando la tecnología lo permite, retransmitir información a través de otros nodos.
 
 **Persona A → Nodo → Nodo → Nodo → Persona B**
 
-El funcionamiento real depende de la tecnología, la ubicación, la geografía, las antenas, la configuración y las condiciones de radio. Por eso Community Frequency busca medir y documentar resultados en lugar de asumir que la tecnología funcionará igual en todos los lugares.
+El desempeño real depende de la geografía, el terreno, la ubicación de los nodos, las antenas, la configuración, la energía, la tecnología y las condiciones de radio.
 
-## 5. ¿Dónde puede tener aplicación?
+Por eso Community Frequency prueba y mide en lugar de asumir.
 
-- Emergencias y respuesta ante desastres.
-- Comunidades rurales con cobertura limitada.
-- Zonas montañosas o remotas.
-- Búsqueda y rescate.
-- Coordinación de voluntarios.
-- Eventos comunitarios.
-- Expediciones y actividades al aire libre.
-- Continuidad de comunicaciones durante interrupciones temporales.
+## 4. ¿Por qué Perú?
 
-## 6. El enfoque de Community Frequency
+Perú no es simplemente un lugar conveniente para realizar pruebas.
 
-El proyecto está diseñado como una iniciativa de investigación y desarrollo. No queremos comenzar con promesas; queremos comenzar con preguntas, pruebas y evidencia.
+La investigación está específicamente relacionada con comunidades rurales y geográficamente aisladas de Perú, incluyendo entornos de los Andes y la Amazonía donde la infraestructura convencional de comunicaciones puede ser limitada.
 
-**Investigar → Probar → Medir → Documentar → Evaluar → Mejorar**
+La diversidad geográfica de Perú también crea diferentes condiciones de investigación. Lo que funciona en un entorno urbano puede no funcionar en una comunidad de montaña o de la Amazonía.
 
-Este ciclo permite identificar tanto las posibilidades como las limitaciones de la tecnología antes de intentar escalar una solución.
+**Por eso necesitamos evidencia obtenida en Perú.**
 
-## 7. ¿Por qué Perú?
+## 5. Paso Cero — Perú 2026
 
-Perú ofrece un contexto particularmente interesante para esta investigación debido a su diversidad geográfica, incluyendo zonas rurales, montañosas y remotas, además de comunidades que pueden enfrentar distintos desafíos de conectividad.
+La primera misión importante de investigación tiene tres objetivos.
 
-El proyecto está investigando también el marco regulatorio peruano, incluyendo los requisitos de homologación de equipos ante el Ministerio de Transportes y Comunicaciones (MTC), así como las características de equipos comerciales que podrían utilizarse en futuros proyectos.
+### 1. Establecer la base regulatoria
 
-Perú es, por lo tanto, un escenario de investigación y posible implementación, no una afirmación de que una misma solución pueda aplicarse de manera uniforme en todo el país.
+Investigar los requisitos de telecomunicaciones de Perú y buscar reuniones o entrevistas con el Ministerio de Transportes y Comunicaciones (MTC).
 
-## 8. Tecnología accesible, no tecnología complicada
+El objetivo es entender qué equipos, frecuencias, niveles de potencia, antenas y configuraciones pueden utilizarse legalmente.
 
-Una parte importante de la investigación consiste en evaluar equipos comerciales ya disponibles. La intención actual es evitar desarrollar hardware propio cuando no sea necesario.
+### 2. Aprender y probar en Lima
 
-Esto puede reducir costos, complejidad de fabricación, mantenimiento e inventario, y permitir que los recursos se concentren en lo que realmente determina el impacto del proyecto: la arquitectura de la red, las pruebas, la documentación, las herramientas de monitoreo y el trabajo con las comunidades.
+Reunirnos con miembros de la comunidad mesh peruana, intercambiar experiencia práctica, comparar Meshtastic y MeshCore y realizar pruebas iniciales cuando sea posible.
 
-## 9. ¿Qué hace diferente a Community Frequency?
+### 3. Probar en el norte de Perú
 
-- Enfoque basado en evidencia y pruebas de campo.
-- Transparencia sobre resultados y limitaciones.
-- Documentación para que el conocimiento pueda ser compartido y reproducido.
-- Investigación regulatoria antes de una implementación formal.
-- Enfoque centrado en las necesidades de las personas, no solamente en la tecnología.
-- Colaboración entre profesionales técnicos, organizaciones y comunidades.
+Viajar a una comunidad cercana a la frontera entre Perú y Ecuador y evaluar la tecnología en un entorno rural real.
 
-## 10. Lo que Community Frequency NO promete
+El plan detallado de la misión se mantiene por separado en la documentación de investigación de Perú 2026.
 
-La honestidad es fundamental para el proyecto. Una red mesh no funciona automáticamente en cualquier lugar ni sustituye los servicios existentes.
+## 6. Investigar antes de desplegar
 
-- No sustituye las redes celulares.
-- No reemplaza Internet.
-- No reemplaza los servicios profesionales de emergencia.
-- No tiene cobertura ilimitada.
-- No funciona sin planificación y pruebas.
-- Debe respetar la regulación aplicable.
-- Su desempeño depende del entorno y de la tecnología utilizada.
+Community Frequency no comienza con un plan de despliegue para después buscar evidencia que lo justifique.
 
-Estas limitaciones no disminuyen el valor de la investigación. Son precisamente las preguntas que necesitamos estudiar.
+La secuencia es:
 
-## 11. ¿Qué estamos construyendo realmente?
+**Investigar → Probar → Observar → Documentar → Aprender → Decidir**
 
-En última instancia, Community Frequency no está construyendo solamente una colección de radios.
+Antes de considerar cualquier proyecto comunitario de mayor escala, necesitamos entender:
 
-Estamos construyendo conocimiento, procedimientos y documentación que permitan estudiar cómo una comunidad puede desarrollar una capa adicional de comunicación resiliente.
+- Qué es legalmente posible.
+- Qué equipos están disponibles y son prácticos.
+- Cómo se comporta la tecnología en los entornos relevantes.
+- Cuáles son las necesidades reales de comunicación.
+- Cuáles son los costos y requisitos de mantenimiento.
+- Si la tecnología aporta un valor significativo.
 
-El objetivo a largo plazo es que una solución útil pueda ser comprendida, documentada, probada y eventualmente replicada en otros contextos.
+Si la evidencia no respalda un despliegue mayor, ese también es un resultado útil de investigación.
 
-## 12. Oportunidades de colaboración
+## 7. Aprender en Lima
 
-El proyecto se encuentra en una etapa de investigación, pruebas y desarrollo. Por eso existen múltiples maneras de participar.
+Lima ofrece una primera oportunidad para aprender de personas que ya participan en comunicaciones mesh en Perú.
 
-### Profesionales técnicos
+El proyecto intercambiará experiencia con la comunidad mesh local y probará Meshtastic y MeshCore cuando sea práctico.
 
-Ingenieros de telecomunicaciones, especialistas en radiofrecuencia, desarrolladores de software, técnicos de redes y otros profesionales pueden ayudar a diseñar, probar y optimizar sistemas.
+La comparación considerará factores como cobertura, confiabilidad, comportamiento de múltiples saltos, configuración, necesidades de energía y facilidad de operación.
 
-### Organizaciones comunitarias
+El objetivo no es declarar un ganador. Es entender cuál de los enfoques, si alguno, puede ser apropiado para el problema que estamos estudiando.
 
-ONGs, municipios, organizaciones de emergencia y grupos comunitarios pueden ayudar a identificar necesidades reales y facilitar escenarios de prueba.
+## 8. Pruebas en el norte de Perú
 
-### Instituciones académicas
+El trabajo en el norte de Perú busca trasladar la investigación de un entorno urbano de aprendizaje a un contexto comunitario rural real.
 
-Universidades y centros de investigación pueden contribuir con conocimiento, estudiantes, recursos, investigación y evaluación independiente.
+Queremos observar:
 
-### Proveedores y fabricantes
+- Necesidades reales de comunicación.
+- Terreno y cobertura.
+- Ubicación y elevación de los nodos.
+- Desempeño de múltiples saltos.
+- Confiabilidad.
+- Necesidades de energía.
+- Facilidad de uso y mantenimiento.
+- Si la tecnología aporta un valor significativo a la comunidad.
 
-Empresas de equipos y fabricantes pueden colaborar proporcionando hardware, soporte técnico y oportunidades de validación.
+**El entorno de campo es parte de la investigación, no simplemente el escenario para una demostración tecnológica.**
 
-### Donantes y patrocinadores
+## 9. Qué pensamos evaluar
 
-Fundaciones, empresas, organismos internacionales y personas particulares pueden financiar equipos, pruebas de campo, transporte, documentación y desarrollo de herramientas.
+El objetivo inicial de equipos busca dar al proyecto suficiente flexibilidad para investigar diferentes configuraciones.
 
-## 13. ¿Qué tipo de apoyo necesitamos?
+Incluye:
 
-- **Equipos:** radios, antenas, computadoras y sistemas de energía.
-- **Recursos:** transporte, logística y materiales para pruebas.
-- **Conocimiento:** telecomunicaciones, RF, ingeniería, software, redes, regulación y emergencias.
-- **Espacios:** terrenos, infraestructura y lugares para realizar pruebas controladas.
-- **Conexiones:** acceso a comunidades, universidades, municipios y organizaciones.
-- **Participación:** personas dispuestas a probar, documentar, enseñar y mejorar.
+- 2 × nodos BQ G3.
+- 2 × antenas externas para los BQ G3.
+- 4 × Heltec V4.
+- 2 × Heltec T114.
+- 4 × kits GPS/GNSS para V4/T114.
+- 2 × nodos Seeed Studio Solar Pro 2.
+- 6 × antenas Muzi Works de 915 MHz.
+- 6 × baterías.
+- Cables, conectores, hardware de montaje y accesorios de campo.
 
-## 14. ¿Qué obtiene un colaborador?
+Esta es una meta, no equipo ya adquirido o aprobado para operar. La investigación regulatoria determinará qué puede utilizarse legalmente en Perú.
 
-- Participación en una iniciativa de investigación con aplicación potencial en comunidades reales.
-- Acceso a la documentación y conocimiento generado por el proyecto.
-- Oportunidades de colaboración interdisciplinaria.
-- Posibilidad de participar en pruebas y validación.
-- Reconocimiento de las contribuciones cuando corresponda y sea acordado.
-- La oportunidad de ayudar a explorar soluciones de comunicación más resilientes.
+## 10. Construir nosotros mismos cuando sea práctico
 
-## 15. Próximos pasos
+Cuando sea posible, las cajas, soportes, brackets y otras piezas mecánicas se fabricarán mediante impresión 3D.
 
-- Continuar la investigación tecnológica y regulatoria.
-- Evaluar equipos comerciales disponibles.
-- Realizar pruebas controladas y de campo.
-- Documentar resultados y limitaciones.
-- Identificar posibles comunidades y organizaciones piloto.
-- Construir relaciones con profesionales e instituciones locales.
-- Definir, con base en evidencia, qué soluciones merecen ser desarrolladas o escaladas.
+El objetivo es mantener los equipos económicos y adaptables en lugar de depender completamente de cajas y accesorios propietarios.
+
+El proyecto documentará los equipos y configuraciones de campo que resulten útiles para que los enfoques exitosos puedan reproducirse o mejorarse posteriormente.
+
+## 11. ¿Qué haría útil la investigación?
+
+Una prueba exitosa no es simplemente una que consigue un gran alcance de radio.
+
+Necesitamos saber si un sistema puede ser:
+
+- Confiable.
+- Económico.
+- De bajo consumo.
+- Práctico de desplegar.
+- Utilizable por personas que no sean ingenieros de radio.
+- Mantenible localmente.
+- Apropiado para el terreno.
+- Útil para las necesidades reales de la comunidad.
+
+Un resultado que demuestre que una tecnología no cumple estos requisitos también es útil.
+
+## 12. Cómo puede ayudar la comunidad de radioaficionados
+
+La investigación se beneficia de personas con experiencia práctica.
+
+Los clubes, operadores y colaboradores técnicos pueden ayudar con:
+
+- RF, antenas y propagación.
+- Experiencia con Meshtastic y MeshCore.
+- Energía y sistemas portátiles.
+- Métodos de pruebas de campo.
+- Diseño experimental.
+- Equipos y préstamos.
+- Conexiones con personas que tengan experiencia rural o internacional relevante.
+- Revisión crítica de supuestos y métodos de prueba.
+
+**El objetivo no es simplemente reunir equipos. Es construir mejor evidencia.**
+
+## 13. Por qué necesitamos financiamiento
+
+Community Frequency es un proyecto independiente.
+
+Los equipos deben adquirirse antes de realizar la investigación de campo. El financiamiento puede ayudar a obtener los nodos, antenas, equipos GPS/GNSS, baterías, accesorios y materiales necesarios para la investigación.
+
+La lista de equipos representa lo que nos gustaría llevar al campo. El financiamiento determinará cuánto de ese equipo podremos adquirir realmente.
+
+## 14. Qué viene después del Paso Cero
+
+El Paso Cero busca establecer una base factual.
+
+Queremos regresar de Perú sabiendo:
+
+- Qué es legalmente posible.
+- Qué equipos son prácticos y están disponibles.
+- Qué funciona en Lima.
+- Qué funciona en el campo.
+- Cómo se comparan Meshtastic y MeshCore en estos entornos.
+- Qué necesitan realmente las comunidades.
+- Cuáles son los costos reales y los requisitos de mantenimiento.
+
+Solo entonces podremos decidir, basándonos en evidencia, si tiene sentido desarrollar un proyecto comunitario de mayor escala.
+
+## 15. El registro de investigación
+
+Los registros detallados de experimentos, configuraciones, mediciones, observaciones, fotografías y limitaciones se documentarán en el registro técnico de investigación del proyecto.
+
+El sitio web público proporciona el contexto y la metodología. El registro técnico proporciona la evidencia.
+
+La transparencia importa porque el valor del proyecto no está solamente en lo que funciona. También está en lo que aprendemos cuando algo no funciona.
 
 ## 16. Una invitación
 
-Community Frequency está en una etapa en la que las preguntas son tan importantes como las respuestas. No buscamos solamente personas que sepan de tecnología. Buscamos personas que entiendan las necesidades de las comunidades, profesionales que puedan aportar experiencia y organizaciones que quieran explorar nuevas posibilidades.
+Community Frequency busca personas que quieran ayudar a comprender un problema real de comunicaciones.
 
-Si usted tiene conocimiento, equipos, recursos, contactos, acceso a una comunidad o simplemente interés en el problema, existe una posible forma de contribuir.
+Tal vez tengas experiencia en radio, antenas, propagación, redes mesh, energía solar, despliegues de campo, comunicaciones rurales, proyectos comunitarios o simplemente una perspectiva que cuestione algún supuesto.
 
-**La tecnología sirve a la comunidad, no al revés.**
+Esa experiencia puede ayudar a dar forma a la investigación.
+
+**Investigar la necesidad. Probar la tecnología. Dejar que la evidencia dé forma a la solución.**
 
 ## 17. La visión
 
-Imagine una comunidad donde una interrupción de Internet no signifique necesariamente perder toda posibilidad de comunicación.
+La pregunta a largo plazo es sencilla:
 
-Imagine que, además de las redes convencionales, existen dispositivos distribuidos estratégicamente capaces de proporcionar comunicación local.
+¿Pueden las comunidades que están geográficamente aisladas de las comunicaciones convencionales contar con una opción adicional de comunicación que sea económica, de bajo consumo, mantenible y apropiada para su entorno?
 
-Imagine una infraestructura que pueda crecer con las necesidades de la comunidad y cuyo conocimiento esté documentado para que otras personas puedan aprender de la experiencia.
+Todavía no sabemos la respuesta.
 
-No sería una sustitución de las redes existentes.
-
-Sería una capa adicional.
-
-Una alternativa.
-
-Una forma más de estar conectados cuando más importa.
+Por eso la estamos investigando.
 
 **COMMUNITY FREQUENCY**
 
-*Una red. Una comunidad. Más resiliencia.*
+*Personas conectadas más lejos.*
 
 ## Nota sobre el estado del proyecto
 
-Este documento presenta la visión y el enfoque general de Community Frequency para posibles colaboradores, donantes, profesionales e instituciones. Los detalles técnicos, las configuraciones de radio, las pruebas de hardware, la investigación regulatoria y los resultados experimentales se mantienen en documentación técnica separada.
+Este documento describe el enfoque actual de investigación a septiembre de 2026. Community Frequency es un proyecto independiente, no una organización sin fines de lucro ni una 501(c)(3).
+
+El proyecto investiga y prueba comunicaciones mesh para comunidades rurales y geográficamente aisladas de Perú. No se está asumiendo ningún despliegue futuro, elección tecnológica, nivel de desempeño ni aprobación regulatoria.
 
 La información de este documento no constituye una garantía de desempeño ni una determinación de cumplimiento regulatorio.
