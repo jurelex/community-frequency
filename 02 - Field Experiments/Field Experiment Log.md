@@ -37,6 +37,22 @@ Additional messages showed varying hop counts, including both 0-hop and 2-hop re
 
 **Preliminary interpretation:** Message delivery and received RF conditions varied substantially with location. These observations are not sufficient to define a coverage boundary.
 
+### September 12, 2026 — G3 House-Node Transition / Elevated-Node Preparation
+
+**Devices:** WY1B-G3B (`y1b3`) and MeshMonitor Raspberry Pi.
+
+**Objective:** Replace the existing attic house-node role with the newer G3 platform while retaining the previous Y1BH node as a lower-elevation comparison/client node. The immediate goal is to establish a network-connected G3 baseline before moving it to the attic and then compare observations after elevation changes.
+
+The G3 successfully joined the local Wi-Fi network using DHCP and established a working Meshtastic TCP connection to MeshMonitor. MeshMonitor confirmed the G3 as **Connected** and displayed **51 nodes** immediately before the planned physical move to the attic.
+
+The G3 was then prepared to become the elevated house node. Y1BH is planned to move downstairs rather than being retired, allowing the two nodes to remain available for comparison.
+
+**Observation:** The G3 can participate in the Meshtastic radio network while simultaneously providing a network-connected data source to MeshMonitor.
+
+**Interpretation:** The successful pre-move connection establishes a usable monitoring baseline. The observed node count is a snapshot and must not be interpreted as a coverage measurement or evidence that the G3 outperforms Y1BH.
+
+**Next measurement:** After the G3 is installed in the attic and Y1BH is moved downstairs, compare node observations, hop distributions, RF measurements, message delivery, and stability over a defined observation period. Because both hardware and elevation are changing, any difference cannot initially be attributed to elevation alone.
+
 ## MeshCore Track
 
 ### September 2026 — Local Companion-to-Companion Test
