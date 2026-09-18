@@ -1,3 +1,4 @@
+# Obsidian / editor
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 .obsidian/cache/
@@ -5,3 +6,35 @@
 .DS_Store
 *.tmp
 *.swp
+
+# Local field/research workspace
+Community-Frequency/
+data/
+
+# Large GIS / mapping datasets
+*.osm.pbf
+*.hgt
+*.hgt.gz
+*.tif
+*.tiff
+*.vrt
+*.gpkg
+*.sqlite
+*.sqlite3
+*.gpx
+
+# Raw field data
+raw/
+archives/
+
+# Python environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Local machine / secrets
+.env
+.env.*
+*.pem
+*.key
